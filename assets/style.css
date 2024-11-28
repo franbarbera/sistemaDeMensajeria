@@ -87,6 +87,6 @@ menu {
   border: 1px solid black;
 }
 .usuario:hover {
-  color: #000000;              /* Cambia el color del texto */
+  color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.911);
 }
