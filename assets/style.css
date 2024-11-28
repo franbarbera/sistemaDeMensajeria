@@ -50,6 +50,9 @@ menu {
   font-size: 20px;
   cursor: pointer;
 }
+.icons:hover, .icon-2:hover{
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.911);
+}
 .icon-2 {
   margin-right: 10%;
   font-size: 20px;
