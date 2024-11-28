@@ -42,6 +42,7 @@ menu {
 .online {
   display: flex;
   margin-left: 10%;
+  width: 10vw;
 }
 .icons {
   margin-right: 10%;
