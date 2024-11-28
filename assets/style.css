@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+}
+menu {
+  width: 35vw;
+  height: 100vh;
+
+  font-size: small;
+  font-family: system-ui;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./img/hand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  background-size: 30%;
+  text-align: center;
+  height: 100vh;
+}
+.content {
+  margin-bottom: 13%;
+}
+.fran {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  border: 1px solid black;
+}
+.fran img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15%;
+}
+.online {
+  display: flex;
+  margin-left: 10%;
+}
+.icons {
+  margin-right: 10%;
+  font-size: 20px;
+
+}
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  border: 1px solid black;
+}
+.boton {
+  background-color: blueviolet;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  color: white;
+  border: 1px solid black;
+  font-size: large;
+  cursor: pointer;
+}
+.usuario img {
+  border-radius: 50%;
+  width: 60px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.usuario {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
