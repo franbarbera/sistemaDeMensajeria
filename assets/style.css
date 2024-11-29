@@ -11,39 +11,47 @@ menu {
   width: 50vh;
   font-size: small;
   font-family: system-ui;
+  height: 100vh;
 }
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+
   background-image: url(./img/hand.png);
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw;
   background-size: 30%;
-  text-align: center;
+
+  width: 100vw;
   height: 100vh;
+  text-align: center;
+  box-sizing: border-box;
 }
 .content {
-  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35rem;
 }
 .fran {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  border: 1px solid black;
+  border: 1px solid rgba(100, 100, 100, 0.219);
 }
 .fran img {
   width: 60px;
   border-radius: 50%;
-  margin-right: 15%;
+  margin-right: 9%;
   cursor: pointer;
 }
 .online {
   display: flex;
-  margin-left: 10%;
-  width: 10vw;
+  margin-left: 5%;
+  width: 12vw;
 }
 .icons {
   font-size: 20px;
@@ -63,7 +71,7 @@ menu {
   justify-content: center;
   align-items: center;
   height: 15%;
-  border: 1px solid black;
+  border: 1px solid rgba(100, 100, 100, 0.219);
 }
 .boton {
   background-color: blueviolet;
@@ -92,9 +100,43 @@ menu {
   height: 10vh;
   display: flex;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgba(100, 100, 100, 0.219);
 }
 .usuario:hover {
   color: #000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.911);
+}
+@media (max-width: 768px) {
+  .icons {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    display: none;
+  }
+
+  menu {
+    width: 100%;
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: column;
+    height: 14rem;
+  }
+
+  .chat::before {
+    content: "";
+    background-image: url("./img/hand.png");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 2rem;
+  }
+
+  .boton {
+    width: 60%;
+    height: 40px;
+  }
 }
